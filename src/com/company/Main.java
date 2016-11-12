@@ -22,7 +22,7 @@ public class Main  {
             }
             Arrays.sort(point);
             for(int j = 0; j < n; j++) {
-                System.out.println(point[j].getNazwa() + " " + point[j].getX() + " " + point[j].getY() );       //chce wyswietllic wspolrzedne
+                System.out.println(point[j].getNazwa() + " " + point[j].getX() + " " + point[j].getY() );       //wyswietla wspolrzedne
             }
             System.out.println();
         }
